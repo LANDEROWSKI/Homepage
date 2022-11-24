@@ -1,0 +1,92 @@
+#txt-bienvenida {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+#txt-bienvenida:hover {
+  color: darkmagenta;
+}
+
+#txt-bienvenida::before {
+  content: "Bienvenid@ ";
+}
+
+.homep #uwu-img {
+  width: 150px;
+  align-items: center;
+  margin-left: 70%;
+  margin-top: -5%;
+}
+
+.dropdown {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+body {
+  background-image: linear-gradient(
+      170deg,
+      rgba(52, 48, 48, 0.892),
+      rgb(63, 28, 67)
+    ),
+    url(https://c4.wallpaperflare.com/wallpaper/682/554/545/anime-jojo-s-bizarre-adventure-josuke-higashikata-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#jojo-gif {
+  align-items: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.figura {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.recuadro {
+  opacity: 60%;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.945), rgb(0, 0, 0)), black;
+  width: 50vw;
+  height: 40vh;
+  border-style: inset;
+  border-radius: 20px;
+}
+
+#pokemon-edit {
+  margin-bottom: 200px;
+  margin-left: px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 578px) {
+  .figura {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,55 @@
+#titulo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#anime1 {
+  width: 285px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+#anime2 {
+  height: 250px;
+}
+
+#anime3 {
+  height: 250px;
+}
+
+#anime4 {
+  height: 250px;
+}
+
+#carta-1 {
+  margin-left: 80px;
+  margin-top: 100px;
+  height: 100%;
+}
+
+#carta-2 {
+  height: 100%;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+#carta-3 {
+  margin-left: 60px;
+  margin-top: 100px;
+  height: 100%;
+}
+
+#carta-4 {
+  margin-left: 60px;
+  margin-top: 100px;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+}
+
+.cartas {
+  display: flex;
+  flex-wrap: wrap;
+}
