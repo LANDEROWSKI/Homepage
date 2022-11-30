@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(217, 223, 209);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tilin {
+  margin-right: 100px;
+}
+
+.pepe {
+  font-size: medium;
+}
+
+.superior {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#estudios {
+  text-align: justify;
+}
+
+#laboral {
+  text-align: justify;
+}
+
+#resumen {
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 500px;
+}
+
+#texto {
+  text-align: center;
+}
+
+#texto-acerca {
+  text-align: center;
+  margin-right: 130px;
+}
+
+#yo {
+  border-radius: 200px;
+  height: 150px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.erick {
+  text-align: left;
+}
+
+.texto {
+  text-align: center;
+  margin-right: 500px;
+}
+
+.letra-curriculum {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  margin-top: 30px;
+}
+
+@media (max-width: 578px) {
+  .titulo {
+    align-items: center;
+  }
+
+  .superior {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .pepe {
+    flex-direction: column;
+    text-align: end;
+  }
+
+  #resumen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .texto {
+    text-align: center;
+    margin-right: 20px;
+    font-size: 12px;
+  }
+
+  #estudios {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: justify;
+    margin-left: 113px;
+    font-size: 12px;
+  }
+
+  #laboral {
+    font-size: 12px;
+    margin-left: 113px;
+  }
+}
